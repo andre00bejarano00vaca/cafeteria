@@ -1,0 +1,42 @@
+#home {
+    display: grid;
+    box-shadow: 12px 12px 2px 1px rgba(52, 51, 58, 0.2);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 10px;
+    align-items: center;
+  }
+
+  .homeDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 20rem;
+  }
+
+  .homeButton {
+    width: 10rem;
+    border-radius: 4rem;
+    height: 2rem;
+  }
+
+  .homeDButton {
+    display: flex;
+    padding: 1rem;
+  }
+
+  .h2titulo {
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+  }
+  .pElement {
+    text-align: center;
+  }
+  .imagen {
+    width: 70%;
+    height: 100%;
+    border-radius: 1rem;
+    display: block;
+    margin: auto;
+  }

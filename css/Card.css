@@ -1,0 +1,8 @@
+.CardImg{
+    width: 17rem;
+    height: 24rem;
+    display: block;
+    margin: 0px;
+    object-fit: cover; /* Cubre el contenedor sin deformarse */
+    object-position: center; /* Centra la imagen */
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de Nutrición</title>
+    <link rel="stylesheet" href="./css/Navbar.css">
+    <link rel="stylesheet" href="./css/Home.css">
+    <link rel="stylesheet" href="./css/Tips.css">
+    <link rel="stylesheet" href="./css/Card.css">
+    <link rel="stylesheet" href="./css/Footer.css">
+    <style>
+      /* Estilos CSS */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #d7e6cc;
+        margin: 0;
+        padding: 0;
+        color: #333;
+      }
+      section {
+        width: 100%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#about">Sobre Nosotros</a></li>
+        <li><a href="#tips">Consejos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <!-- Secciones -->
+    <section id="home">
+      <div class="homeDiv">
+        <h2 class="h2titulo">COMO BAJAR DE PESO Y TENER BUENA ALIMENTACION</h2>
+        <p class="pElement">
+          Bienvenido a nuestra página de nutrición. Aquí encontrarás información
+          y consejos para mantener una vida saludable.
+        </p>
+        <div class="homeDButton">
+          <button class="homeButton">click para conocer mas</button>
+        </div>
+      </div>
+      <img
+        class="imagen"
+        src="./Imagenes/joanna-kosinska-eVQBXxeCre4-unsplash.jpg"
+        alt="personas trotando"
+      />
+    </section>
+
+    <section id="about">
+      <h2>Sobre Nosotros</h2>
+      <p>
+        Somos un equipo de expertos en nutrición dedicados a ayudarte a mejorar
+        tu bienestar a través de una dieta balanceada y saludable.
+      </p>
+    </section>
+    <!-- cards -->
+    <section id="tips">
+      <div class="divTips">
+        <div class="tipsInfoDiv">
+
+          <h2 class="h2Tips">Consejos de Nutrición</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus obcaecati dicta ab aliquam et fugit consectetur
+              molestias velit. Fugiat excepturi maiores quae porro nisi
+              consequatur repellat quidem recusandae unde! In consequuntur
+              corrupti labore necessitatibus omnis libero quidem ex dolore error
+              voluptate asperiores quod incidunt quos harum culpa blanditiis
+              iste sunt nostrum temporibus, maxime a cumque eos? Dolorum, dicta
+              molestias. Amet error dicta aliquam nobis, ducimus debitis
+              voluptates ea tempora doloremque laboriosam excepturi mollitia a
+              est dolorem totam consectetur odit in vel nostrum doloribus autem
+              cupiditate! Hic sapiente temporibus enim dignissimos autem
+              repellendus, tempore itaque! Quisquam asperiores quos quibusdam
+              maxime!
+            </p>        </div>
+
+        <div class="imagenPlatos"></div>
+      </div>
+    </section>
+    <section>
+      <div>
+        <img class="CardImg" src="./Imagenes/odiseo-castrejon-4Q_xlBOaCso-unsplash.jpg" alt="plato">
+        <p></p>
+        <p></p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contacto</h2>
+      <p>
+        Para más información, contáctanos en nuestro correo:
+        <a href="mailto:nutricion@ejemplo.com">nutricion@ejemplo.com</a>
+      </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2023 Página de Nutrición. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- JavaScript para el scroll suave -->
+    <script>
+      document.querySelectorAll("nav a").forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          target.scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
