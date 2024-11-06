@@ -1,11 +1,14 @@
 nav {
-    backdrop-filter: blur(10px);
-    color: black;
-    padding: 15px;
-    position: sticky;
-    top: 0;
-    width: 100%;
-  }
+  backdrop-filter: blur(10px);
+  color: black;
+  padding: 15px;
+  position: fixed; /* Cambiar de absolute a fixed */
+  top: 0; /* Fija el navbar en la parte superior */
+  left: 0; /* Asegura que se extienda completamente de lado a lado */
+  width: 100%; /* Mantiene el navbar a lo largo de todo el ancho */
+  z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
+  background-color: rgba(0, 0, 0, 0.4);
+}
 
   nav ul {
     list-style: none;
@@ -20,7 +23,7 @@ nav {
   }
 
   nav ul li a {
-    color: black;
+    color: #FFEEDB;
     text-decoration: none;
     font-weight: bold;
   }

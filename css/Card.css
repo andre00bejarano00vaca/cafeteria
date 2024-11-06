@@ -3,6 +3,7 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     align-items: center;
     gap: 10px;
+    margin-bottom: 2rem;
 }
 .cardConten{
     width: 100%;
@@ -12,7 +13,7 @@
 }
 .CardImg{
     width: 17rem;
-    height: 24rem;
+    height: 20rem;
     display: block;
     margin: 0px;
     object-fit: cover; /* Cubre el contenedor sin deformarse */
@@ -29,6 +30,7 @@
 
 .divCard{
     width: 18rem;
+    height: 25rem;
     display: flex;
     flex-direction: column;
     justify-content: center;

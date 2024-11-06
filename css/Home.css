@@ -1,9 +1,14 @@
 #home {
     display: grid;
+    height: 39rem;
     box-shadow: 12px 12px 2px 1px rgba(52, 51, 58, 0.2);
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding: 10px;
     align-items: center;
+    background-image: url("/Imagenes/joanna-kosinska-eVQBXxeCre4-unsplash.jpg");
+    background-size: cover; /* Ajusta la imagen sin deformarla */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat;
   }
 
   .homeDiv {
@@ -26,12 +31,14 @@
   }
 
   .h2titulo {
-    color: black;
+    color: #FFEEDB;
     font-size: 3rem;
     text-align: center;
   }
   .pElement {
+    width: 50%;
     text-align: center;
+    color: #FFEEDB;
   }
   .imagen {
     width: 70%;
